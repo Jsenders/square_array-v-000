@@ -1,6 +1,7 @@
 def square_array(array)
   # your code here
   array = [1,2,3]
-  square_array(number).each do |number|
+  square_array(array).each do |number|
+    puts "#{number} squared will equal #{}"
   end
 end
